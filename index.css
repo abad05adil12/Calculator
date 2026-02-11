@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+.main{
+    position: relative;
+    top:45px;
+    background-color: black;
+    height: 70vh;
+    width:57vw;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    position: relative;
+    left:35px;
+    top:29px;
+    padding:12px;
+}
+
+#numbers button{
+    font-family: Verdana, sans-serif;
+    background: yellow;
+    border: none;
+    font-size:1rem;
+    padding:20px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#numbers input{
+    position: relative;
+    top:-25px;
+    border-radius: 25px;
+    padding:14px;
+    width: 39vw;
+    border: none;
+    font-size: 1rem;
+}
